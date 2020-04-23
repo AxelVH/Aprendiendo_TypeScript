@@ -48,9 +48,59 @@
             //resultado
             3.8.3
             /**********************************************************************/
-
+            //para compilar un archivo typescript se ejecuta el siguiente comando
+            tsc src/hola.js
         </code>
     </pre>  
+    <br>
+    <h2>El archivo tsconfig</h2>
+    <br>
+    <pre class="language-js">
+        <code class="language-js">
+            /**********************************************************************/
+            //creando el archivo tsconfig.json
+            tsc --init
+            //el parametro [RutaArchivo] es opcional
+            tsc --watch [RutaArchivo]
+        </code>
+    </pre>
+    <br>
+    <h2>El compilador y tsconfig</h2>
+    <br>
+    <pre class="language-js">
+        <code class="language-js">
+            /**********************************************************************/
+            {
+                "compilerOptions":{
+                    ...
+                },
+                "include":{
+                    "src/*.ts",
+                    "src/**/*.ts"
+                },
+                "exclude":{
+                    "src/test.ts",
+                    "src/*-test.ts"
+                }
+            }
+        </code>
+    </pre>
+    <br>
+    <h2>El compilador y ECMASript</h2>
+    <br>
+    <pre class="language-js">
+        <code class="language-js">
+            /**********************************************************************/
+            //Esta opción sirve para redireccionar los archivos generados por el compilador
+            //a la carpeta personalizada
+            {
+                "compilerOptions": {
+                    "outDir": "./dist"
+                }
+            }
+        </code>
+    </pre>
+    <br>
 
 </body>
 </html>
