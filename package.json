@@ -1,0 +1,30 @@
+{
+  "name": "curso_de_typescript",
+  "version": "1.0.0",
+  "description": "Curso-de-TypeScript",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AxelVH/Curso-de-TypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AxelVH/Curso-de-TypeScript/issues"
+  },
+  "homepage": "https://github.com/AxelVH/Curso-de-TypeScript#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.150"
+  }
+}
